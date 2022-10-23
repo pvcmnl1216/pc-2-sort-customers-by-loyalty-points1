@@ -9,7 +9,6 @@ import java.util.List;
 public class CustomerService {
     // This method returns the customer's loyalty points in sorted order
     public List<Integer> getListOfCustomersSortedByLoyaltyPoints(List<Customer> customerList, LoyaltyPointComparator loyaltyPointComparator) {
-
         List<Integer> loyaltyPoints = new ArrayList<>();
 
         loyaltyPoints.add(456);
